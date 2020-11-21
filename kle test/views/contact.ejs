@@ -1,0 +1,33 @@
+<%- include("partials/header")%>
+<style>
+    body {
+        background-image: linear-gradient(brown, black);
+        height: 420px;
+    }
+</style>
+<div class="ui main text container segment" style="background-color: black;margin-top: 3.5%; width: 500px;">
+    <h1 style="color: white;text-align: center;">Contact Us</h1>
+    <form class="ui form">
+        <div class="field">
+            <label style="color: white;">Full Name</label>
+            <input type="text" name="fullname" placeholder="First Name">
+        </div>
+        <div class="field">
+            <label style="color: white;">E-mail</label>
+            <input type="text" name="email" placeholder="Last Name">
+        </div>
+        <div class="field">
+            <label style="color: white;">Phone Number</label>
+            <input type="text" name="phone" placeholder="Last Name">
+        </div>
+        <div class="field">
+            <label style="color: white;">Description</label>
+            <textarea placeholder="description" name="description" required style="height: 5px;"></textarea>
+        </div>
+        <button class="ui primary button" type="submit" style="margin: auto;display: block;">Submit</button>
+    </form>
+</div>
+
+
+
+<%- include("partials/footer")%>
